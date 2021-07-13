@@ -91,12 +91,7 @@ class Reply:
         line = lst[random.randint(0, len(lst) - 1)]
         return line
 
-    # @staticmethod
-    # def laugh():
-    #     lst = [" haaahhhhhh haaaa! It's preety funny. Right?",
-    #            "ahaaaaahaaaahaaaa, Its funny", "ahahahha, Lol I can't stop laughing"]
-    #     line = lst[random.randint(0, len(lst) - 1)]
-    #     return line
+    
 
 
 # SPEAK
@@ -630,9 +625,8 @@ def respond(query):
         elif bool_syn and exist(['tell me about', 'tell me something about', 'do you know', 'who is', 'do you know']):
             bool_syn = False
             if exist(['alexa', 'siri', 'google', 'Google']):
-                lst = ['Please dont say any one but. SHE is my CRUSH', 'My crush, My inspiration',
-                       "My love. Oh no i mean my loyal friend",
-                       'She is preety amazing i like the way she move i mean work',
+                lst = ['I know Her. She is great.',
+                       'She is preety amazing i like the way she work',
                        ]
                 word = lst[random.randint(0, len(lst) - 1)]
                 speak(word)
