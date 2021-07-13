@@ -26,7 +26,7 @@ import pyspeedtest
 # VOICE SETUP
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')  # making list of voices
-engine.setProperty('voice', voices[5].id)  # total 14(0-13) voices are available
+engine.setProperty('voice', voices[0].id)  # total 14(0-13) voices are available
 
 
 # GRACE REPLIES
