@@ -6,7 +6,7 @@ import os  # operating system
 # VOICE SETUP
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')  # making list of voices
-engine.setProperty('voice', voices[6].id)  # total 15(0-14) voices are available
+engine.setProperty('voice', voices[1].id)  # total 15(0-14) voices are available
 engine.setProperty('voices', 50)
 
 
