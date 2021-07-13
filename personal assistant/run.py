@@ -38,6 +38,3 @@ def take_command():
         except Exception:
             print("\tListening again...")
 
-
-# take_command()
-speak('Hello star i am your personal assistant how are you')
