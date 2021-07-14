@@ -1,6 +1,7 @@
 
 # Grace
 ## Personal Assistant
+### Run file called run.py 
 
 A brief description of what this project does and who it's for
 
