@@ -1,6 +1,16 @@
-
+# Advance Python Project - 
 # Grace
 ## Personal Assistant
+## Two version available 
+## Neural networks or if else ladder
+
+### In Neural Network Assistant 2 Versions are available
+- main_from_scratch
+- main_GenericAssistant 
+- features are same in both 
+
+
+## How to use else if ladder assistant ?
 ### Run file called run.py 
 
 A brief description of what this project does and who it's for
