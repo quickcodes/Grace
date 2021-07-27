@@ -1,8 +1,7 @@
 # Advance Python Project - 
 # Grace
 ## Personal Assistant
-## Two version available 
-## Neural networks or if else ladder
+## Two version available - (Neural networks) or (if else ladder)
 
 ### In Neural Network Assistant 2 Versions are available
 - main_from_scratch
