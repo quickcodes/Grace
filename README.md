@@ -8,6 +8,14 @@
 - main_GenericAssistant 
 - features are same in both 
 
+# Some cool features are only available in Neural Network Assistant 
+- Track mobile number
+- read text
+- copy text
+- cut text
+- paste text
+- select all text
+- add, substract, multiply, and get power of multiple numbers 
 
 ## How to use else if ladder assistant ?
 ### Run file called run.py 
