@@ -3,10 +3,8 @@
 ## Personal Assistant
 ## Two version available - (Neural networks) or (if else ladder)
 
-### In Neural Network Assistant 2 Versions are available
-- main_from_scratch
-- main_GenericAssistant 
-- features are same in both 
+### Demo Video of Neural Network version is available on our YouTube channel
+### https://youtu.be/KKQwbNCIX8A
 
 # Some cool features are only available in Neural Network Assistant 
 - Track mobile number
