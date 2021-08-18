@@ -1,7 +1,7 @@
 # Grace
 ## Personal Assistant -
 
-### Demo Video of Neural Network version is available on YouTube 
+### Demo Video is available on YouTube 
 ### https://youtu.be/KKQwbNCIX8A
 
 # Some cool features
