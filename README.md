@@ -1,12 +1,10 @@
-# Advance Python Project - 
 # Grace
-## Personal Assistant
-## Two version available - (Neural networks) or (if else ladder)
+## Personal Assistant -
 
-### Demo Video of Neural Network version is available on our YouTube channel
+### Demo Video of Neural Network version is available on YouTube 
 ### https://youtu.be/KKQwbNCIX8A
 
-# Some cool features are only available in Neural Network Assistant 
+# Some cool features
 - Track mobile number
 - read text
 - copy text
@@ -14,9 +12,6 @@
 - paste text
 - select all text
 - add, substract, multiply, and get power of multiple numbers 
-
-## How to use else if ladder assistant ?
-### Run file called run.py 
 
 A brief description of what this project does and who it's for
 
