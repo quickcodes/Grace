@@ -135,9 +135,6 @@ def tell_joke(inp):
     json_data = requests.get("https://official-joke-api.appspot.com/random_joke").json()
     first_line = json_data['setup']
     punch_line = json_data['punchline']
-    # print(first_line)
-    # time.sleep(2)
-    # print(punch_line)
     return "Here is the joke" + "\n" + str(first_line) + "\n" + str(punch_line)
 
 
@@ -498,7 +495,6 @@ def chat():
     # -------------------------------------------------------------------
     for sentence in sent_tokenize(inp):
         sent_str = sentence
-        # print(sent_str)
 
         sentence = tokenize(sentence)
 
@@ -515,30 +511,16 @@ def chat():
         # -------------------------------------------------------------------
 
         ans = ""
-        # bol = False
-        if prob.item() > 0.50:
-            # print("You said sent: ",sentence)
-            # print("You said str: ",sent_str)
-            # print("Intents: ", intents['intents'])
-            # print(type(intents['intents']))
+        if prob.item() > 0.70:
             for intent in intents['intents']:
                 if intent["tag"] == tag:
-                    # responses = tag['responses']
                     responses = intent['responses']
-                    # ans += random.choice(responses)
 
                     for key in mapping.keys():
-                        # if bol == True:
-                        #     break
                         if key == tag:
-                            # print("inside")
-                            # get_clean_data(sent_str)
                             ans += mapping.get(key)(sent_str)
-                            # bol = True
-                            # if bol == False:
                     else:
                         ans += random.choice(responses)
-                        # bol = True
 
         else:
             ask = input("I think, I know something about it should i show? (Y/n)")
@@ -546,12 +528,8 @@ def chat():
             if ("y" in ask) or ("Y" in ask):
                 wiki(sent_str)
                 ans += "Here we Go...!"
-                # print(ans)
-                # print("2")
             else:
                 ans += "okay"
-                # print(ans)
-                # print("3")
         reply += str(ans) + ", "
     res = str(reply)
     print(res)
@@ -569,34 +547,3 @@ def start_chat():
 
 if __name__ == "__main__":
     start_chat()
-
-"""
-GENERAL TIME TAKEN BY GRACE:
-
-Execution time:  0.01603221893310547
-Total time with hello:  7.238661766052246
-
-Execution time:  0.0
-Total time with hello:  7.178621768951416
-
-Execution time:  1.5458641052246094
-Total time with hello:  7.449854135513306
-
-Execution time:  1.6758720874786377
-Total time with hello:  8.529506206512451
-
-Execution time:  3.908010721206665
-Total time with hello:  10.346375226974487
-
-Execution time:  2.296583414077759
-Total time with hello:  9.038659811019897
-
-Execution time:  1.3479893207550049
-Total time with hello:  7.961965322494507
-
-Execution time:  1.4101145267486572
-Total time with hello:  8.561813592910767
-
-Execution time:  0.20402169227600098
-Total time with hello:  7.394111394882202
-"""
