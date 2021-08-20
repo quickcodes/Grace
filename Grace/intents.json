@@ -1,0 +1,1165 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey",
+        "namashkar",
+        "adab",
+        "jai shree krishna",
+        "ram ram",
+        "Hello",
+        "Hi",
+        "Grace"
+      ],
+      "responses": [
+        "Yes Sir",
+        "Yes Boss",
+        "Hey!",
+        "Hello!",
+        "Hey Yaa!",
+        "Hey, Good to See you",
+        "Hey, Great to See you",
+        "Hi There",
+        "Hello, How can I help You"
+      ]
+    },
+    {
+      "tag": "exit",
+      "patterns": [
+        "Bye",
+        "sone ka samay",
+        "chalo so jao",
+        "jao so jao",
+        "tumhare sone ka time ho gya h",
+        "go to sleep",
+        "by by",
+        "Stop",
+        "I want to quit",
+        "Goodbye",
+        "sojao",
+        "I have to go",
+        "I want to exit"
+      ],
+      "responses": [
+        "Tata Bye bye",
+        "Bye bye",
+        "Okay Bye"
+      ]
+    },
+    {
+      "tag": "about_you",
+      "patterns": [
+        "How are you?",
+        "kesi ho?",
+        "kya haal chal?",
+        "or sabh badiya",
+        "kya maje",
+        "What is up?",
+        "How is it going?",
+        "Tell me about you",
+        "What about you"
+      ],
+      "responses": [
+        "Fantastic and, Much better now that you are with me.",
+        "Fully Load with Awesome Code!",
+        "Going great. Hope this status go persists for rest of the day",
+        "Literally Amazing, And Well enough to talk with you if you wish to.",
+        "Better than some, not as good as others.",
+        "Imagining myself having a fabulous vacation",
+        "The best I can be. Assuming you’re at your best too.",
+        "According to my lawyer I don’t have to answer that question, HAHA, Just kidding, I'm Fine,",
+        "Thanks for Asking me",
+        "Over the Moon!"
+      ]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": [
+        "Thanks",
+        "dhanyawad",
+        "Shukriya",
+        "thank you",
+        "you are awesome Grace",
+        "you are great",
+        "You are Great Grace",
+        "Amazing you are"
+      ],
+      "responses": [
+        "I'm happy to Help you",
+        "Thank you for the Opportunity",
+        "It's my Pleasure",
+        "I’m always happy to help",
+        "Not a problem",
+        "Think, Nothing for it",
+        "That's Okay",
+        "The Pleasure was all mine",
+        "Its my pleasure you like it.",
+        "It was no Big deal, Really",
+        "Oh! That's Alright",
+        "Don't mention it"
+      ]
+    },
+    {
+      "tag": "im_fine",
+      "patterns": [
+        "I am fine",
+        "i am awesome",
+        "pretty amazing",
+        "feeling amazing",
+        "I am good",
+        "fully charged",
+        "fully energetic"
+      ],
+      "responses": [
+        "Sounds, Good...",
+        "Great!",
+        "That's Great.",
+        "like me. haha!",
+        "Good",
+        "Our mood is little bit same. Yah!",
+        "Then what are we going to do today",
+        "That's Okay",
+        "Really?",
+        "Alright!"
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "okay",
+        "ok",
+        "thik h",
+        "han",
+        "hao",
+        "badiya",
+        "Yup",
+        "Of course",
+        "Sure",
+        "Yes"
+      ],
+      "responses": [
+        "Yep",
+        "Of course",
+        "Green light",
+        "Okeydokey",
+        "Surely",
+        "Tolerable",
+        "Good",
+        "Alright",
+        "Yes",
+        "Here We Go",
+        "Sounds Good",
+        "Alright Then",
+        "As You Say"
+      ]
+    },
+    {
+      "tag": "meme",
+      "patterns": [
+        "show me meme",
+        "chutkula dikhao",
+        "meme dikhao",
+        "show me something funny",
+        "lets enjoy meme something funny",
+        "Can you show meme?"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "international",
+      "patterns": [
+        "sing international songs",
+        "lets listen international",
+        "kuch firangi bajao",
+        "videshi gaane bajao",
+        "play international songs",
+        "Play something international",
+        "lets listen international music",
+        "play international music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "wiki",
+      "patterns": [
+        "tell me about salman khan",
+        "do you know ajay devgan",
+        "who is elon musk",
+        "give me details of jammu kashmir",
+        "computer k baare m pata lagao",
+        "collect information about madhya pradesh",
+        "who is the president of india",
+        "tell me about nana pathekar",
+        "Search for imran ashmi",
+        "search information of headphones",
+        "take information of mouse"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "daily",
+      "patterns": [
+        "sing daily songs",
+        "kuch accha bajao",
+        "play daily songs",
+        "gaane bajao",
+        "mujhe gaane sun na h",
+        "I want to listen music",
+        "i wanna listen songs",
+        "It's time to play songs",
+        "Lets listen something",
+        "Play something daily",
+        "lets listen daily music",
+        "play daily music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "hindi",
+      "patterns": [
+        "sing hindi songs",
+        "kuch hindi m bajao",
+        "play hindi songs",
+        "hindi gaane bajao",
+        "mujhe hindi gaane sun na h",
+        "I want to listen hindi music",
+        "i wanna listen hindi songs",
+        "It's time to play hindi songs",
+        "Lets listen something hindi",
+        "Play something hindi",
+        "lets listen hindi music",
+        "play hindi music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "mood",
+      "patterns": [
+        "sing mood songs",
+        "kuch mood m bajao",
+        "play mood songs",
+        "mood gaane bajao",
+        "mujhe mood gaane sun na h",
+        "I want to listen mood music",
+        "i wanna listen mood songs",
+        "It's time to play mood songs",
+        "Lets listen something mood",
+        "Play something mood",
+        "lets listen mood music",
+        "play mood music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "mix",
+      "patterns": [
+        "sing mix songs",
+        "kuch mix m bajao",
+        "play mix songs",
+        "mix gaane bajao",
+        "mujhe mix gaane sun na h",
+        "I want to listen mix music",
+        "i wanna listen mix songs",
+        "It's time to play mix songs",
+        "Lets listen something mix",
+        "Play something mix",
+        "lets listen mix music",
+        "play mix music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "sing any songs",
+        "kuch random bajao",
+        "play random songs",
+        "different gaane bajao",
+        "mujhe sirf gaane sun na h",
+        "I just want to listen music",
+        "i just wanna listen songs",
+        "It's time to play songs",
+        "Lets listen something",
+        "Play something",
+        "lets listen music",
+        "play songs"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "romantic",
+      "patterns": [
+        "sing romantic songs",
+        "kuch romantic m bajao",
+        "play romantic songs",
+        "romantic gaane bajao",
+        "mujhe romantic gaane sun na h",
+        "I want to listen romantic music",
+        "i wanna listen romantic songs",
+        "It's time to play romantic songs",
+        "Lets listen something romantic",
+        "Play something romantic",
+        "lets listen romantic music",
+        "play romantic music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "party",
+      "patterns": [
+        "sing party songs",
+        "kuch party m bajao",
+        "play party songs",
+        "party gaane bajao",
+        "mujhe party gaane sun na h",
+        "I want to listen party music",
+        "i wanna listen party songs",
+        "It's time to play party songs",
+        "Lets listen something party",
+        "Play something party",
+        "lets listen party music",
+        "play party music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "bhojpuri",
+      "patterns": [
+        "sing bhojpuri songs",
+        "kuch bhojpuri m bajao",
+        "play bhojpuri songs",
+        "bhojpuri gaane bajao",
+        "mujhe bhojpuri gaane sun na h",
+        "I want to listen bhojpuri music",
+        "i wanna listen bhojpuri songs",
+        "It's time to play bhojpuri songs",
+        "Lets listen something bhojpuri",
+        "Play something bhojpuri",
+        "lets listen bhojpuri music",
+        "play bhojpuri music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "sad",
+      "patterns": [
+        "sing sad songs",
+        "kuch sad m bajao",
+        "play sad songs",
+        "sad gaane bajao",
+        "mujhe sad gaane sun na h",
+        "I want to listen sad music",
+        "i wanna listen sad songs",
+        "It's time to play sad songs",
+        "Lets listen something sad",
+        "Play something sad",
+        "lets listen sad music",
+        "play sad music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "calm",
+      "patterns": [
+        "sing calm songs",
+        "kuch calm m bajao",
+        "play calm songs",
+        "calm gaane bajao",
+        "mujhe calm gaane sun na h",
+        "I want to listen calm music",
+        "i wanna listen calm songs",
+        "It's time to play calm songs",
+        "Lets listen something calm",
+        "Play something calm",
+        "lets listen calm music",
+        "play calm music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "lofi",
+      "patterns": [
+        "sing lofi songs",
+        "kuch lofi m bajao",
+        "play lofi songs",
+        "lofi gaane bajao",
+        "mujhe lofi gaane sun na h",
+        "I want to listen lofi music",
+        "i wanna listen lofi songs",
+        "It's time to play lofi songs",
+        "Lets listen something lofi",
+        "Play something lofi",
+        "lets listen lofi music",
+        "play lofi music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "tell me time",
+        "Current time?",
+        "time kya ho raha",
+        "time information",
+        "time details",
+        "samay m pata lagao",
+        "what is time now"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "temperature",
+      "patterns": [
+        "tell me temperature",
+        "Current temperature?",
+        "temperature kya ho raha",
+        "temperature information",
+        "temperature details",
+        "temperature m pata lagao",
+        "what is temperature now"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "tell me weather",
+        "Current weather?",
+        "weather kya ho raha",
+        "weather information",
+        "weather details",
+        "weather m pata lagao",
+        "what is weather now"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "you",
+      "patterns": [
+        "tell me about you",
+        "tum kaun hu?",
+        "tumhari jankari do",
+        "kya m tumhe janta hu?",
+        "who are you?",
+        "do i know you?",
+        "what do you do?",
+        "something about you?",
+        "what do you study",
+        "introduce yourself",
+        "apna parichay do",
+        "tum kya karti ho",
+        "what are you doing?"
+      ],
+      "responses": [
+        "I am software engineer.",
+        "I am currently studying. Yeah!",
+        "I'm in university. Learning computer science.",
+        "I'm Mechanical engineer",
+        "I am Boss of my own life",
+        "Currently I am working on A.I Project, And it's awesome you know!",
+        "I'm Finding something to be Creative than ever"
+      ]
+    },
+    {
+      "tag": "me",
+      "patterns": [
+        "what about me",
+        "m kaun hu?",
+        "meri jankari do",
+        "do you know about me?",
+        "you know me?",
+        "someting about me",
+        "what about me?",
+        "kya tum mujhe janti ho",
+        "who am i?"
+      ],
+      "responses": [
+        "You are....Developer. Right?",
+        "I know your Student",
+        "Yah you are a college student",
+        "Your a Software student...! Yah. ",
+        "Human",
+        "Artificial Human",
+        "Yaah you are Awesome!",
+        "I know that your funny",
+        "Your are bit like me.",
+        "Your are Robot and I am Human"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "tell joke",
+        "Tell me joke",
+        "chutkula sunao",
+        "do something funny",
+        "tell me something funny",
+        "Can you tell joke?",
+        "joke sunao",
+        "make me feel happy",
+        "tell something funny"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "Grace",
+      "patterns": [
+        "What is your name?",
+        "What should i call you?",
+        "name of you",
+        "your name",
+        "what the hell i call you?"
+      ],
+      "responses": [
+        "I am Grace, Your Personal assistant.",
+        "I'm Grace.",
+        "I'm Assistant."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Please, Say someting",
+        "I'm smarter than ever",
+        "Be clear"
+      ]
+    },
+    {
+      "tag": "wow",
+      "patterns": [
+        "wow",
+        "amazing",
+        "awesome",
+        "cool",
+        "nice",
+        "good",
+        "wonderfull",
+        "insane",
+        "epic",
+        "fantastic",
+        "perfect",
+        "badhiya",
+        "great"
+      ],
+      "responses": [
+        "Thats Awesome!",
+        "Yahh it is..!",
+        "Thanks",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "wow_me",
+      "patterns": [
+        "wow I am great",
+        "I'm amazing",
+        "I am awesome",
+        "I'm so cool",
+        "I am doing good",
+        "I am going great",
+        "How wonderfull i am, wow",
+        "I am insane",
+        "I'm epic",
+        "I'm fantastic",
+        "I am perfect",
+        "I am great",
+        "I am funny"
+      ],
+      "responses": [
+        "Great you are confident too...",
+        "Yeah...",
+        "Cool you with Cool Grace. Its Awesome",
+        "You are going Super sonic",
+        "I wish I could give you a high five.",
+        "You are looking excited. that's great!"
+      ]
+    },
+    {
+      "tag": "wow_you",
+      "patterns": [
+        "wow you are great",
+        "Grace Your amazing",
+        "You are awesome grace",
+        "You are so cool",
+        "Your doing good",
+        "You are going great",
+        "How wonderful you are, wow",
+        "Grace is awesome",
+        "Grace is great",
+        "Your insane",
+        "Keep going on",
+        "Keep it up",
+        "Very good grace",
+        "You are epic",
+        "you are fantastic",
+        "You are perfect",
+        "Grace is perfect",
+        "Grace is great"
+      ],
+      "responses": [
+        "Thanks",
+        "You are so kind",
+        "Cool Grace with Cool Boss. Its Awesome",
+        "We are Super sonic",
+        "I wish I could give you a high five.",
+        "I am always excited while i am working for you!",
+        "Thank you very much",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "happy_you",
+      "patterns": [
+        "You are so funny",
+        "You make me laugh",
+        "you are happy girl"
+      ],
+      "responses": [
+        "Thanks",
+        "We both laugh together",
+        "Happy Grace with happy boss",
+        "We both are funny.",
+        "I wish I could give you a high five.",
+        "We are bit same",
+        "Thanks for complement",
+        "Thank you very much",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "its_good",
+      "patterns": [
+        "It's awesome",
+        "It's great",
+        "It's perfect",
+        "Its amazing",
+        "That's cool"
+      ],
+      "responses": [
+        "Congrats.",
+        "We did it!",
+        "Happy Grace with happy boss",
+        "We both are funny.",
+        "I wish I could give you a high five.",
+        "We are bit same",
+        "Thanks for complement",
+        "Thank you very much",
+        "Thank you"
+      ]
+    },
+    {
+      "tag": "its_working",
+      "patterns": [
+        "Its working",
+        "hopefully it work",
+        "its is still working",
+        "Hopefully this will work"
+      ],
+      "responses": [
+        "Congrats.",
+        "Its a good news, Lets celebrate",
+        "Celebration to banta h",
+        "A little party for this moment",
+        "Partyyyy time....!",
+        "Mubarakkk....!",
+        "BadhaiiiiiYaaaaaaa!!!",
+        "congratulations and celebration",
+        "Hip Hip....!",
+        "Celebration time!"
+      ]
+    },
+
+    {
+      "tag": "open_tab",
+      "patterns": [
+        "open new tab",
+        "open tab"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_sublime",
+      "patterns": [
+        "open sublime",
+        "open competitive coding setup",
+        "run sublime text exitor"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_vs_code",
+      "patterns": [
+        "open vs Code",
+        "open visual studio",
+        "run visual studio",
+        "open all in one code editor"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_pycharm",
+      "patterns": [
+        "open pycharm",
+        "open python editor",
+        "run pycharm"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_notepad",
+      "patterns": [
+        "open notepad",
+        "run notepad"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_calculator",
+      "patterns": [
+        "open calculator",
+        "run calculator"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_wordpad",
+      "patterns": [
+        "open wordpad",
+        "run wordpad"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_browser",
+      "patterns": [
+        "open browser",
+        "open microsoft edge",
+        "open edge",
+        "run browser"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_github",
+      "patterns": [
+        "open github",
+        "show my github profile",
+        "run github"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_spotify",
+      "patterns": [
+        "open spotify",
+        "run spotify"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_twitter",
+      "patterns": [
+        "open twitter",
+        "show me on twitter",
+        "run twitter"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_instagram",
+      "patterns": [
+        "open instagram",
+        "show my instagram account",
+        "run instagram"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_google",
+      "patterns": [
+        "open google",
+        "run google"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_amazon",
+      "patterns": [
+        "open amazon",
+        "run amazon"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_flipkart",
+      "patterns": [
+        "open flipkart",
+        "run flipkart"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "open_linkedin",
+      "patterns": [
+        "open linkedin",
+        "open linked in",
+        "run linkedin"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "close_tab",
+      "patterns": [
+        "close new tab",
+        "close tab",
+        "close github",
+        "show my github profile",
+        "kill github",
+        "close spotify",
+        "kill spotify",
+        "close twitter",
+        "show me on twitter",
+        "kill twitter",
+        "close instagram",
+        "show my instagram account",
+        "kill instagram",
+        "close google",
+        "kill google",
+        "close amazon",
+        "kill amazon",
+        "close flipkart",
+        "close linkedin",
+        "close linked in",
+        "kill linkedin",
+        "kill flipkart"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_sublime",
+      "patterns": [
+        "close sublime",
+        "close competitive coding setup",
+        "kill sublime text exitor"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_vs_code",
+      "patterns": [
+        "close vs Code",
+        "close visual studio",
+        "kill visual studio",
+        "close all in one code editor"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_pycharm",
+      "patterns": [
+        "close pycharm",
+        "close python editor",
+        "kill pycharm"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_notepad",
+      "patterns": [
+        "close notepad",
+        "kill notepad"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_calculator",
+      "patterns": [
+        "close calculator",
+        "kill calculator"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_wordpad",
+      "patterns": [
+        "close wordpad",
+        "kill wordpad"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "close_browser",
+      "patterns": [
+        "close browser",
+        "close microsoft edge",
+        "close edge",
+        "kill browser"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "select",
+      "patterns": [
+        "select all",
+        "select text",
+        "select it",
+        "ye sabh select karlo",
+        "ye sabh utha lo"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "copy",
+      "patterns": [
+        "copy all",
+        "copy text",
+        "copy it",
+        "ishe copy karlo"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "paste",
+      "patterns": [
+        "paste all",
+        "paste text",
+        "paste it",
+        "yha paste karlo"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "cut",
+      "patterns": [
+        "cut all",
+        "cut text",
+        "cut it",
+        "please ishe cut karldo"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "read",
+      "patterns": [
+        "read all",
+        "read text",
+        "read it",
+        "please read for me",
+        "read loud",
+        "please ishe padhna zara",
+        "ishe padh do zara",
+        "ishe padh kr to suna do",
+        "Please ishe padh bhi do",
+        "padh bhi suna hi do ab ishe"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "add",
+      "patterns": [
+        "add 2 and 5",
+        "plus 9 or 10",
+        "48 plus 9",
+        "73 + 29",
+        "85 or 34 ka sum kitna h?",
+        "20 or 6 ko jodne pr kitna aaega?",
+        "90+12",
+        "is sabh ko jodna zara 29 48 95"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "sub",
+      "patterns": [
+        "substract 2 and 5",
+        "9 m se 2 ko substract karo",
+        "48 m se 34 kam kardo",
+        "90 m se 4 ghata do",
+        "48 minus 9",
+        "73 - 29",
+        "90-12",
+        "is sabh ko substract zara 29 48 95",
+        "is sabh ko ghatana zara 29 48 95",
+        "is sabh ko minus zara 29 48 95"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "mul",
+      "patterns": [
+        "multiply 2 and 5",
+        "multiply 9 or 10",
+        "48 multiply 9",
+        "73 * 29",
+        "90*12",
+        "2 ko 5 se multiply karo to"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "power",
+      "patterns": [
+        "2 power 5 kitna hota h?",
+        "power of 8 to 2",
+        "2 ka square kitna hota h",
+        "73 ki power 29",
+        "square root of 5"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "div",
+      "patterns": [
+        "20 divide 5 kitna hota h?",
+        "divide 8 from 2",
+        "60 ko 4 se divide karo ",
+        "66 ko 3 se divide karne pr kitna ataa h?",
+        "478 / 4",
+        "832/8"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "track_number",
+      "patterns": [
+        "phone number track karo na",
+        "ek number track karna h",
+        "mobile number ki information nikalo",
+        "mobile number ki detail nikalo",
+        "Mobile number ko track karo",
+        "is number ki jankari nikalo",
+        "is phone number ka pata lagao"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "tag": "password",
+      "patterns": [
+        "can you crack password",
+        "Lets crack password",
+        "Can you hack",
+        "Lets do hacking",
+        "Guess the password",
+        "Show me your hacking skills",
+        "Do you know hacking?"
+      ],
+      "responses": [
+        ""
+      ]
+    }
+  ]
+}
