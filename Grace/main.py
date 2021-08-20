@@ -6,7 +6,6 @@ from model import NeuralNet
 from NeuralNetwork import bag_of_words, tokenize
 # -----------------------------------------------------------------------------------------------------------
 import asyncio  # Multiprocessing
-from numba import jit
 
 # -----------------------------------------------------------------------------------------------------------
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -575,43 +574,9 @@ def start_chat():
     speak("Starting...")
     while True:
         chat()
-    # start = time.time()
-    # chat()
-    # end = time.time()
-    # print(end - start)
-    # 0.01566767692565918
 
 
 if __name__ == "__main__":
     start_chat()
 
-"""
-GENERAL TIME TAKEN BY GRACE:
 
-Execution time:  0.01603221893310547
-Total time with hello:  7.238661766052246
-
-Execution time:  0.0
-Total time with hello:  7.178621768951416
-
-Execution time:  1.5458641052246094
-Total time with hello:  7.449854135513306
-
-Execution time:  1.6758720874786377
-Total time with hello:  8.529506206512451
-
-Execution time:  3.908010721206665
-Total time with hello:  10.346375226974487
-
-Execution time:  2.296583414077759
-Total time with hello:  9.038659811019897
-
-Execution time:  1.3479893207550049
-Total time with hello:  7.961965322494507
-
-Execution time:  1.4101145267486572
-Total time with hello:  8.561813592910767
-
-Execution time:  0.20402169227600098
-Total time with hello:  7.394111394882202
-"""
