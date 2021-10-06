@@ -5,7 +5,7 @@
 ### https://youtu.be/KKQwbNCIX8A
 
 #### Required modules
-### Pytorch, tensorflow, jsons, webbrowser, phonenumbers, keyboard, request, nltk, sys, pyttsx3, phonenumbers, pywhatkit, numpy
+### Pytorch, numpy, tensorflow, jsons, webbrowser, phonenumbers, keyboard, request, nltk, sys, pyttsx3, phonenumbers, pywhatkit...
 
 # Some cool features
 - Track mobile number
