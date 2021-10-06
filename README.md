@@ -1,13 +1,16 @@
 # Grace
 ## Personal Assistant -
 
-### Demo is available on YouTube 
-### https://youtu.be/KKQwbNCIX8A
+<!-- ### Demo is available on YouTube 
+### https://youtu.be/KKQwbNCIX8A -->
 
 #### Required modules
 ### Pytorch, numpy, tensorflow, jsons, webbrowser, phonenumbers, keyboard, request, nltk, sys, pyttsx3, phonenumbers, pywhatkit...
 
 # Some cool features
+- Open/Close softwares
+- Play musics
+- write Notes
 - Track mobile number
 - read text
 - copy text
