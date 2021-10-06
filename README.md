@@ -18,6 +18,7 @@
 - paste text
 - select all text
 - add, substract, multiply, and get power of multiple numbers 
+- And many many many more...
 
 A brief description of what this project does and who it's for
 
