@@ -12,7 +12,7 @@
 - Play musics
 - write Notes
 - Track mobile number
-- Play Guess the password Game
+- Play Crack the password Game
 - read text
 - copy text
 - cut text
